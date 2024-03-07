@@ -1,0 +1,86 @@
+.division{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+body {
+    margin: 0px;
+  }
+  .ticket {
+    width: 47mm;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 11px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 10px;
+  }
+/* ////////////////////////////////////////////////////////////////////////// */  
+  .ticke{
+    width: 57mm;
+    background-color: rgb(255, 255, 255);
+  }
+  .tickett {
+    width: 47mm;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 9px;
+  }
+  .tickett td {
+    text-align: center;
+    max-width: 0px; /* Ajusta el ancho máximo que deseas para cada celda */
+    word-wrap: break-word; /* Rompe las palabras largas */
+  }
+/* ////////////////////////////////////////////////////////////////////////// */
+  .reclamacion {
+    font-size: 14px;
+    text-align: center;
+  }
+  .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+  }
+  .ticket-text {
+    font-size: 17px;
+  }
+  .total {
+    font-weight: bold;
+    text-align: right;
+    margin: 0px;
+  }
+  .pagado {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .efectivo {
+    text-align: right;
+    margin: 0px;
+  }
+  .logo {
+    width: 300px;
+    position: relative;
+  }
+  .derecha {
+    text-align: right;
+  }
+  .izquierda {
+    text-align: left;
+  }
+  .vertical-top {
+    vertical-align: top;
+  }
+  .titulos-cabecera {
+    font-weight: bold;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  .cabecera-tabla {
+    border-bottom: solid 1px gray;
+  }
